@@ -38,6 +38,29 @@ class Ps4Controls(IntEnum):
     FINGER1 = 146
     FINGER2 = 147
 
+class XboxOneControls(IntEnum):
+    LEFT_STICK_X = 0
+    LEFT_STICK_Y = 1
+    RIGHT_STICK_X = 2
+    RIGHT_STICK_Y = 3
+    VIEW = 128
+    MENU = 129
+    GUIDE = 130
+    UP = 131
+    RIGHT = 132
+    DOWN = 133
+    LEFT = 134
+    Y = 135
+    B = 136
+    A = 137
+    X = 138
+    LB = 139
+    RB = 140
+    LT = 141
+    RT = 142
+    LS = 143
+    RS = 144
+
 
 class ButtonState(IntEnum):
     RELEASED = 0
