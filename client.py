@@ -69,7 +69,7 @@ class ButtonState(IntEnum):
 
 def send_message(ip, port, changes):
     
-    packet = bytearray([0x01, len(changes)])  # type + axis number
+    packet = bytearray([0x01, len(changes)])  # type + axis count
     
     for axis, value in changes.items():
         # axis + value (network byte order)
